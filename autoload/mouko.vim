@@ -64,13 +64,11 @@ function! mouko#search(...)
     let query = printf('%s', query)
   endif
   let uri = s:mouko_uri . query
-  echomsg uri
 
   redraw | echo "fetching feed..."
   let response = webapi#http#get(uri)
   let content = webapi#json#decode(response.content)
   let data = content['data']
-  echomsg string(data)
 
   call s:mouko_list(data)
   redraw | echo ''
