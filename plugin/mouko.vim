@@ -2,8 +2,10 @@
 " Author:   Shinya Ohyanagi <sohyanagi@gmail.com>
 " Version:  0.0.1
 " WebPage:  http://github.com/heavenshell/vim-mouko/
-" Description: Search Cannpass
-" License: BSD, see LICENSE for more details.
+" License:  This file is placed in the Public domain
+" This function copy lots from toggeter-vim.
+" see
+" https://github.com/mattn/togetter-vim/blob/master/plugin/togetter.vim#L44
 let s:save_cpo = &cpo
 set cpo&vim
 

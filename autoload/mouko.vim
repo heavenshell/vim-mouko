@@ -1,6 +1,10 @@
 " Last Change:  2015-06-25
 " Maintainer:   Shinya Ohyanagi <sohyanagi@gmail.com>
-" License:      This file is placed in the public domain.
+" License:      This file is placed in the public domain
+" This function copy lots from toggeter-vim.
+" see
+" https://github.com/mattn/togetter-vim/blob/master/plugin/togetter.vim#L44
+"
 let s:save_cpo = &cpo
 set cpo&vim
 

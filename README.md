@@ -32,3 +32,4 @@ Just a joke plugin.
 
 LICENSE
 -------
+Public domain
