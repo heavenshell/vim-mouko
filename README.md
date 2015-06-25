@@ -5,7 +5,7 @@ This is a Vim plugin for show NPB(Japanese professional baseball) game result.
 
 [Inspired by this tweet](https://twitter.com/Oh_CanNotAngel/status/614031779108777984)
 
-Using [NPB JSON API](http://botch.herokuapp.com/v0/scores/YYYYMMDD).
+Using [NPB JSON API](https://github.com/p1ch-jp/BotchAPI).
 
 Usage
 -----
